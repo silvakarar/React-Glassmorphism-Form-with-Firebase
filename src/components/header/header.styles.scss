@@ -1,0 +1,31 @@
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    color: white;
+    font-size: 2rem;
+
+   
+    
+}
+.sign-out {
+    background: none;
+    background: rgba(225, 225, 225, 0.2);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 15%;
+    border: none;
+    border-radius: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 5px 15px rgba(225, 225, 225, 0.5);
+    outline: none;
+    margin: 10px 0;
+    letter-spacing: 1px;
+    z-index: 1;
+}

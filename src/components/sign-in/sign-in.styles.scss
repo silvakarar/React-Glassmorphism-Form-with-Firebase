@@ -1,10 +1,10 @@
 .sign-in {
     margin: auto;
     width: 50vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // // flex-wrap: wrap;
     margin-top: 10rem;
     padding: 40px 20px;
     background: rgba(255, 255, 255, 0.1);
@@ -28,7 +28,16 @@
         font-size: 18px;
         letter-spacing: 1px;
     }
-    label {
-        
-    }
+   
+  
 }
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+    .sign-in {
+     display: flex;
+     flex-direction: column;
+     width: 80vw;
+    
+    }
+  }

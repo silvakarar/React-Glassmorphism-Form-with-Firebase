@@ -1,5 +1,5 @@
 .custom-button {
-    min-width: 165px;
+    // min-width: 165px;
     width: auto;
     height: 50px;
     letter-spacing: 1px;
@@ -21,5 +21,17 @@
       color: black;
      
     }
-  }
+}
+  
+    /* Extra small devices (phones, 600px and down) */
+    @media only screen and (max-width: 600px) {
+    .custom-button {
+      min-width: 165px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem;
+    width: fit-content;
+    }
+    }    
   

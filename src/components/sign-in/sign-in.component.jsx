@@ -30,7 +30,7 @@ class SignIn extends Component {
         <Boxes />
         <h2>I already have an account</h2>
         <span>Sign in with your email and password</span>
-        <form onSubmit={this.handleSubmit}>
+        <form onSubmit={this.handleSubmit} >
           <FormInput
             name="email"
             type="email"

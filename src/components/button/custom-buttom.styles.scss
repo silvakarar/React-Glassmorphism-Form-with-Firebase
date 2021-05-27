@@ -26,12 +26,12 @@
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
     .custom-button {
-      min-width: 165px;
+      min-width: 200px;
       display: flex;
       flex-direction: column;
-      align-items: center;
-      margin: 1rem;
-    width: fit-content;
+      align-items: flex-start;
+      justify-content: flex-start;
+      margin-top: 10px;
     }
     }    
   

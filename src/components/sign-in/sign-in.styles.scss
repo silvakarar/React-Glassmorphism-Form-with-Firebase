@@ -1,11 +1,11 @@
 .sign-in {
-    margin: auto;
+    margin: auto ;
     width: 50vw;
     // display: flex;
     // flex-direction: column;
     // justify-content: center;
     // // flex-wrap: wrap;
-    margin-top: 10rem;
+    margin-top: 5rem;
     padding: 40px 20px;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -37,7 +37,9 @@
     .sign-in {
      display: flex;
      flex-direction: column;
-     width: 80vw;
+     margin: auto 10px;
+     margin-top: 70px;
+     width: 100vw;
     
     }
   }
